@@ -1,21 +1,29 @@
+#Student Grade Calculator
+
 print("🎓 Student Grade Calculator")
+
 marks = int(input("Enter your marks: "))
 
 if marks >=90 and marks <=100:
     print("Grade: A")
     print("Excellent performance!")
+
 elif marks >=80:
     print("Grade: B")
     print("Good job!")
+
 elif marks >=70:
     print("Grade: C")
     print("You can do better!")
+
 elif marks >=60:
     print("Grade: D")
     print("Needs improvement!")
+
 elif marks >=0:
     print("Grade: F")
     print("Failing grade. Please work harder!")
 
 else:
     print("Invalid marks entered. Please enter a value between 0 and 100.")
+
